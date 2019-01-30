@@ -4,145 +4,51 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-	<title>Coaches Class Login Service</title>
+	<title>Coaches Class</title>
 	<link href="" rel="shortcut icon">
 	<meta name="description" content="Login Service"/>
 </head>
 <body>
-<div id="container">
- 
-    <header id="site-header">
-    <nav id="secondary-nav">
-    <div class="header-container">
-        <div class="header-row">
+    <div id="container">
+
+        <header id="site-header">
+            <div class="site-title">
+                <a id="desktopimgLink" class="logo" href="">
+                    <img id="dtImage" class="desktop-logo" src="https://media.licdn.com/dms/image/C4D03AQF8MQJCheDSlw/profile-displayphoto-shrink_200_200/0?e=1554336000&v=beta&t=VTUoaamYZAK_5S0ujbLlcBtFSpXrWbxuSJHZlyWADwI" alt="Coaches Class">   
+                </a>    
+            </div>
+        </header>
+        <div id="main-content">
+            <div class="content-container">
+                <div class="content-row" id="product-id">
+                        <div id="image-logo">
+                        <h1>Coaches Class</h1>
+                        <h3>Learn real skills from real experts.</h3>
+                        </div> <!-- #image-logo-->
+                </div><!--/.content-row-->	
+            </div><!--/.content-container-->
+        </div><!--/#main-content-->
+        <div id="skills">
+            <h2>Hone your skills in...</h2>
+            <h4>Leadership</h4>
+            <h4>Communication</h4>
+            <h4>Entrepeneurship</h4>
+            <h4>Public Speaking</h4>
+            <h3>And Many More!</h3>
+            <div id="quotes">
+                <p>I love this website. It's helped me so much.</p>
+            </div>
         </div>
-    </div>
-    </nav>
-      
-    <div id="masthead">
-    <div class="header-container">
-        <div class="header-row">
- 			<div id="site-brand">
-				<div class="site-title">
-					<a id="desktopimgLink" class="logo" href="">
-						<img id="dtImage" class="desktop-logo" src="https://media.licdn.com/dms/image/C4D03AQF8MQJCheDSlw/profile-displayphoto-shrink_200_200/0?e=1554336000&v=beta&t=VTUoaamYZAK_5S0ujbLlcBtFSpXrWbxuSJHZlyWADwI" alt="Coaches Class">   
-					</a>    
-				</div>
-			</div><!--/#site-brand-->
-			<div class="masthead-content">                 
-
-			</div><!--/.masthead-content-->
-        </div><!--/.header-row-->
-    </div><!--/.header-container-->
-    </div><!--/#masthead-->
-    <nav id="main-nav">
-    <div class="header-container">
-        <div class="header-row">
-             <div id="main-menu-container">
-				<ul class="menu">
-					<li class="menu-item"><a href="about.html" class="menu-link">About Coaches Class</a></li>
-					<li class="menu-item"><a href="courses.html" class="menu-link">Courses</a></li>
-					<li class="menu-item"><a href="https://www.linkedin.com/in/coaches-class-07a2b416a" class="menu-link">LinkedIn</a></li>
-				</ul>
-			</div><!--/#main-menu-container-->
-        </div><!--/.header-row-->
-    </div><!--/.header-container-->
-    </nav><!--/#main-nav-->
-    </header><!-- end of the header -->
-	
-	<div id="main-content">
-        <div class="content-container">
-            <div class="content-row" id="product-id">
-                                                    <!-- check for logo; if it exists, display it -->
-                    <div id="image-logo">
-                    <!--<img class="" src= "https://media.licdn.com/dms/image/C4D03AQF8MQJCheDSlw/profile-displayphoto-shrink_200_200/0?e=1554336000&v=beta&t=VTUoaamYZAK_5S0ujbLlcBtFSpXrWbxuSJHZlyWADwI" alt="Coaches Class - Login Service" width="25" height="25">-->
-                    <p>Coaches Class - Login Service</p>
-                    </div> <!-- #image-logo-->
-                            </div><!--/.content-row-->	
-	
-			<div clas="content-row">
-		   	<div class="col-md-7" id="shib-login">
-					<form action="/idp/profile/SAML2/Redirect/SSO?execution=e1s1" method="post">                               
-                            <fieldset>
-                                <div class="form-group has-feedback has-feedback-left">
-                                    <label for="username" class="control-label">Username:</label>
-                                    <input class="form-control" type="text" id="username" name="j_username" value="">                               
-                                </div>
-                                <div class="form-group has-feedback has-feedback-left">
- 									<label for="password" class="control-label">Password:</label>
-                                    <input class="form-control" type="password" id="password" name="j_password" value="">  
-                                </div>
-								<div style="margin:0 auto; width:100%; color:#CC0035">
-</div> 
-                                <div class="form-group has-feedback has-feedback-left">
-									<button class="btn btn-danger" type="submit" name="_eventId_proceed" style="font-weight:bold">Login</button>
-                                </div>
-                            </fieldset>
-					
-					        <script>
-                                window.onload = function() {
-                                    var input = document.getElementById("username").focus();
-                                }
-                            </script>
-                    
-					</form>				
-				
-	   				<div id="helper-text">
-		   		
-					<p><a href="">&rsaquo; Forgot your password?</a></p>
-					<p><a href="">&rsaquo; Need Help?</a></p>
-					
-					</div><!--/#helper-text-->
-					
-					
-                                                        								
-			</div><!--/.col-md-7-->
-			<div class="col-md-5" id="security-text">
-				<!--SECURITY STATEMENT AND ANNOUNCEMENTS-->
-				<!-- For announcements: change class="well" to class="alert alert-warning"> -->
-				<!-- For general security warning: change class="alert alert-warning" to class="well"-->
-				
-				<div class="well">
-					<!-- For announcements: to show, change class to class="show"; to hide, change class to class="hide" -->
-					<div class="hide">
-						<h3>Announcements</h3>
-						<p>PUT ANNOUNCEMENT SCRIPT HERE, SHOW SOCIAL MEDIA POSTS</p>
-						<hr>
-					</div>
-					
-					<p>For security reasons, please log out and exit your browser when you are finished accessing pages that require authentication.</p>
-				</div>
-			</div><!--/.col-md-5-->
-			</div><!--/content-row-->   			   
-           	
-		</div><!--/.content-container-->
-       
-    </div><!--/#main-content-->
-	
-	<footer id="site-footer">
-	
-		<!-- ADDING CUSTOM SMU FOOTER -->
-		
-		<div id="site-info" role="contentinfo" aria-label="Directory Information">
-		<div class="footer-container">
-		<div class="footer-row">
-		<a href="" class="site-logo">
-			<img alt="Coaches Class" src="https://media.licdn.com/dms/image/C4D03AQF8MQJCheDSlw/profile-displayphoto-shrink_200_200/0?e=1554336000&v=beta&t=VTUoaamYZAK_5S0ujbLlcBtFSpXrWbxuSJHZlyWADwI" width="50" height="50">
-		</a>
-			<div class="smu-info">
-			<a href="">Contact Us</a>
-			<a href="">Maps and Directions</a>
-			<a href="">Legal Disclosures</a>
-			<address class="site-address">
-			&copy; Coaches Class, STREET, CITY, TX POST
-			</address>
-			</div><!--/.smu-info-->
-		</div><!--/.footer-row-->
-		</div><!--/.footer-container-->
-		</div><!--/#site-info-->
-
-	</footer>
-	</div><!--#container-->
-	
+        <div id="start-learning">
+            <h1>Start Learning Now</h1>
+            <div class="form-group has-feedback has-feedback-left">
+				<button class="btn btn-danger" type="submit" name="" style="font-weight:bold"><a href="pricing.html">View Pricing Options</a></button>
+            </div>
+            <h1>Government or Otherwise Restricted</h1>
+            <div class="form-group has-feedback has-feedback-left">
+				<button class="btn btn-danger" type="submit" name="" style="font-weight:bold"><a href="pricing.html">View Special Pricing Options</a></button>
+            </div>
+        </div>
+    </div><!--#container-->
 </body>
 </html>	
