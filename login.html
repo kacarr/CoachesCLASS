@@ -62,19 +62,17 @@
 	
 			<div clas="content-row">
 		   	<div class="col-md-7" id="shib-login">
-					<form action="/idp/profile/SAML2/Redirect/SSO?execution=e1s1" method="post">                               
+					<form method="post">                               
                             <fieldset>
-                                <div class="form-group has-feedback has-feedback-left">
-                                    <label for="username" class="control-label">Username:</label>
-                                    <input class="form-control" type="text" id="username" name="j_username" value="">                               
+                                <div>
+                                    <label>Username:</label>
+                                    <input type="text" id="username" name="j_username" value="">                               
                                 </div>
-                                <div class="form-group has-feedback has-feedback-left">
- 									<label for="password" class="control-label">Password:</label>
-                                    <input class="form-control" type="password" id="password" name="j_password" value="">  
+                                <div>
+ 									<label>Password:</label>
+                                    <input type="password" id="password" name="j_password" value="">  
                                 </div>
-								<div style="margin:0 auto; width:100%; color:#CC0035">
-</div> 
-                                <div class="form-group has-feedback has-feedback-left">
+                                <div>
 									<button class="btn btn-danger" type="submit" name="_eventId_proceed" style="font-weight:bold">Login</button>
                                 </div>
                             </fieldset>
@@ -89,8 +87,10 @@
 				
 	   				<div id="helper-text">
 		   		
-					<p><a href="">&rsaquo; Forgot your password?</a></p>
-                    <p><a href="">&rsaquo; Sign Up</a></p>
+					<p><a href="forgotpassword.html">&rsaquo; Forgot your password?</a></p>
+                    <p><a href="signup.html">&rsaquo; Sign Up</a></p>
+                    <p><a href="index.html">&rsaquo; Back to Landing Page</a></p>
+                    <p><a href="pricing.html">&rsaquo; Back to Pricing</a></p>
 					<p><a href="">&rsaquo; Need Help?</a></p>
 					
 					</div><!--/#helper-text-->
